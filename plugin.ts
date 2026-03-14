@@ -1412,7 +1412,9 @@ function resolveAgentIdByBindings(
 interface GatewayOptions {
   userContent: string;
   systemPrompts: string[];
-  sessionContext: SessionContext;
+  sessionContext?: SessionContext;
+  /** @deprecated Use sessionContext instead. Kept for backward compatibility. */
+  sessionKey?: string;  // 用于 session 持久化，传递 JSON 字符串
   gatewayAuth?: string;  // token 或 password，都用 Bearer 格式
   /** 记忆归属用户标识，用于 Gateway 区分记忆；sharedMemoryAcrossConversations=true 时传 accountId，false 时传 sessionContext JSON */
   memoryUser?: string;
