@@ -25,7 +25,7 @@
 
 ```bash
 # 方式一：一键安装（推荐）
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/dingtalk-connector-pro/main/install-pro.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yang1002378395-cmyk/dingtalk-connector-pro/main/install-pro.sh | bash
 
 # 方式二：手动安装
 openclaw plugins install @dingtalk-real-ai/dingtalk-connector
@@ -92,7 +92,7 @@ openclaw start
 #### 方式一：一键安装（推荐）
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/dingtalk-connector-pro/main/install-pro.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yang1002378395-cmyk/dingtalk-connector-pro/main/install-pro.sh | bash
 ```
 
 安装脚本会自动：
@@ -123,7 +123,7 @@ openclaw start
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/YOUR_USERNAME/dingtalk-connector-pro.git
+git clone https://github.com/yang1002378395-cmyk/dingtalk-connector-pro.git
 cd dingtalk-connector-pro
 
 # 2. 安装依赖
@@ -466,9 +466,9 @@ openclaw restart
 
 ### 📚 文档资源
 
-- **GitHub**: https://github.com/YOUR_USERNAME/dingtalk-connector-pro
-- **Wiki**: https://github.com/YOUR_USERNAME/dingtalk-connector-pro/wiki
-- **Issues**: https://github.com/YOUR_USERNAME/dingtalk-connector-pro/issues
+- **GitHub**: https://github.com/yang1002378395-cmyk/dingtalk-connector-pro
+- **Wiki**: https://github.com/yang1002378395-cmyk/dingtalk-connector-pro/wiki
+- **Issues**: https://github.com/yang1002378395-cmyk/dingtalk-connector-pro/issues
 
 ### 💬 社区支持
 
@@ -510,3 +510,11 @@ openclaw restart
 **更新**: 2026-03-14 02:50
 **作者**: OpenClaw Pro Team
 **许可证**: MIT
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yang1002378395-cmyk/dingtalk-connector-pro&type=Date)](https://star-history.com/#yang1002378395-cmyk/dingtalk-connector-pro&Date)
+
+**如果这个项目对你有帮助，请给一个 Star 支持！**
